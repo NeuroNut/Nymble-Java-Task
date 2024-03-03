@@ -1,0 +1,12 @@
+com\travel\travel\domain\StandardPassenger.class
+com\travel\travel\enums\PassengerType.class
+com\travel\travel\domain\GoldPassenger.class
+com\travel\travel\domain\PremiumPassenger.class
+com\travel\travel\TravelDriver.class
+com\travel\travel\domain\PassengerFactory$1.class
+com\travel\travel\domain\Activity.class
+com\travel\travel\domain\TravelPackage.class
+com\travel\travel\domain\PassengerFactory.class
+com\travel\travel\domain\Passenger.class
+com\travel\travel\domain\Destination.class
+com\travel\travel\TravelApplication.class

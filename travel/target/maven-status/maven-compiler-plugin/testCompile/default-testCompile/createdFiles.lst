@@ -1,0 +1,8 @@
+com\travel\travel\domain\PremiumPassengerTest.class
+com\travel\travel\ConsoleOutputCapture.class
+com\travel\travel\TravelApplicationTests.class
+com\travel\travel\domain\StandardPassengerTest.class
+com\travel\travel\domain\TravelPackageTest.class
+com\travel\travel\domain\GoldPassengerTest.class
+com\travel\travel\domain\ActivityTest.class
+com\travel\travel\domain\DestinationTest.class

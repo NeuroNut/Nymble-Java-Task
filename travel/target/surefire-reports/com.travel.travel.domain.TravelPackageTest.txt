@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.travel.travel.domain.TravelPackageTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.075 s <<< FAILURE! -- in com.travel.travel.domain.TravelPackageTest
+com.travel.travel.domain.TravelPackageTest.testPrintItinerary_PrintsItineraryCorrectly -- Time elapsed: 0.016 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Travel Package name: Test Package
+Destination name: Destination 1
+------- destination details done ---------
+Destination name: Destination 2
+------- destination details done ---------> but was: <Travel Package name: Test Package
+Destination name: Destination 1
+------- destination details done ---------
+Destination name: Destination 2
+------- destination details done --------->
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.travel.travel.domain.TravelPackageTest.testPrintItinerary_PrintsItineraryCorrectly(TravelPackageTest.java:159)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+com.travel.travel.domain.TravelPackageTest.testPrintPassengerList_PrintsPassengerListCorrectly -- Time elapsed: 0.010 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Travel Package name: Test Package, passengerCapacity: 10, current passenger count: 2
+Passenger name: Passenger 1, number: 1
+Passenger name: Passenger 2, number: 2> but was: <Travel Package name: Test Package, passengerCapacity: 10, current passenger count: 2
+Passenger name: Passenger 1, number: 1
+Passenger name: Passenger 2, number: 2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.travel.travel.domain.TravelPackageTest.testPrintPassengerList_PrintsPassengerListCorrectly(TravelPackageTest.java:184)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
